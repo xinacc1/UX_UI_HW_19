@@ -17,9 +17,9 @@
     <nav class="ln">
             <div class="nav-push-left"></div>
             <div class="button-nav middle home-button">HOME</div>
-            <div class="button-nav middle">WORK</div>
-            <div class="button-nav middle">ABOUT</div>
-            <div class="button-nav middle">CONTACT</div>
+            <div class="button-nav middle nav-text ">WORK</div>
+            <div class="button-nav middle nav-text ">ABOUT</div>
+            <div class="button-nav middle nav-text ">CONTACT</div>
     </nav>
 
  
@@ -43,10 +43,10 @@
 
             <div class="info-box">
                 <span>
-                    <img src="images/linkedin.svg" alt="linkedin icon">
+                    <img src="images/linkedin.svg" class="ln-button-overlay" alt="linkedin icon">
                 </span>
                 <span>
-                    <img src="images/behance.svg" alt="behance icon">
+                    <img src="images/behance.svg" class="be-button-overlay" alt="behance icon">
                 </span>
             </div>
 
@@ -110,18 +110,31 @@
 
      
     <section id="mainGrid">
-        <div id="firstproject" class="heroGridArea"></div>
-        <div id="secondproject" class="heroGridArea"></div>
-        <div id="thirdproject" class="heroGridArea"></div>
-        <div id="fourthproject" class="heroGridArea"></div>
-        <div id="fifthproject" class="heroGridArea"></div>
-        <div id="sixthproject" class="heroGridArea"></div>
+        <div id="firstproject" class="heroGridArea">
+            <div class="first-project-overlay"></div>
+        </div>
+        <div id="secondproject" class="heroGridArea">
+            <div class="second-project-overlay"></div>
+        </div>
+        <div id="thirdproject" class="heroGridArea">
+            <div class="third-project-overlay"></div>
+        </div>
+        <div id="fourthproject" class="heroGridArea">
+            <div class="fourth-project-overlay"></div>
+        </div>
+        <div id="fifthproject" class="heroGridArea">
+            <div class="fifth-project-overlay"></div>
+        </div>
+        <div id="sixthproject" class="heroGridArea">
+            <div class="sixth-project-overlay"></div>
+        </div>
     </section>
 
 
     <section class="work-bottom-space"></section>
 
 
+    
     <footer class="ln">
         <div class="footer-push-left"></div>
         <div class="f-button-nav middle ln noln-top noln-bottom">Copyright 2021</div>
@@ -140,11 +153,13 @@
 
     </footer>
 
+    
 
-
+   
+    <script  src="http://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
+    <script src="js/index.js"></script>
 
 
 
 </body>
-
 </html>

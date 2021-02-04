@@ -50,12 +50,13 @@ nav {
   font-weight: 600;
 }
 
-.to-right {
-  display: flex;
-  flex-grow: 1;
-  justify-content: flex-end;
-  margin: 8px;
-} 
+.nav-text {
+  font-weight: 300;
+}
+
+/*NAV HOVER*/
+
+/*END NAV HOVER*/
 
 h1 {
   font-weight: 400;
@@ -187,6 +188,16 @@ p {
   height: 100px;
 }
 
+.abso-left {
+  position: absolute;
+  top: 93px;
+  left: 252px;
+  width: 400px;
+  height: 1550px;
+}
+
+
+/*FOOTER*/
 footer {
   position: fixed;
   display: flex;
@@ -208,13 +219,61 @@ footer {
   padding: 12px 12px;
 }
 
-.abso-left {
-  position: absolute;
-  top: 93px;
-  left: 252px;
-  width: 400px;
-  height: 1550px;
+.f-middle {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+} 
+
+/*SOCIAL FOOTER BUTTONS*/
+
+.to-right {
+  display: flex;
+  flex-grow: 1;
+  justify-content: flex-end;
+  margin: 8px;
+} 
+
+.s-button-nav {
+  margin: 8px;
+  padding: 0px 18px;
+} 
+
+.s-middle {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+} 
+
+.s-circle {
+  width: 84px;
+  height: 84px;
+  border-radius: 50%;
 }
+
+
+/*END SOCIAL FOOTER BUTTONS*/
+/*END FOOTER*/
+
+
+/*FOOTER HOVER*/
+
+.fb-button-overlay,
+.tw-button-overlay {
+  height: 40px;
+  width: 40px;
+  opacity: 100;
+  transition: .5s;
+}
+
+.ln-button-overlay:hover {
+  background-color: white;opacity:0.3;
+}
+
+.be-button-overlay:hover {
+  background-color: white;opacity:0.3;
+}
+/*END FOOTER HOVER*/
 
 
 .column {
@@ -740,6 +799,66 @@ footer {
 }
 
 
+
+
+/*PROJECT OVERLAY*/
+.first-project-overlay,
+.second-project-overlay,
+.third-project-overlay,
+.fourth-project-overlay,
+.fifth-project-overlay,
+.sixth-project-overlay {
+  height: 100%;
+  width: 100%;
+  opacity: 0;
+  transition: .5s;
+}
+
+.first-project-overlay:hover {
+  background-color: white;opacity:0.3;
+}
+
+.second-project-overlay:hover {
+  background-color: white;opacity:0.3;
+}
+
+.third-project-overlay:hover {
+  background-color: white;opacity:0.3;
+}
+
+.fourth-project-overlay:hover {
+  background-color: white;opacity:0.3;
+}
+
+.fifth-project-overlay:hover {
+  background-color: white;opacity:0.3;
+}
+
+.sixth-project-overlay:hover {
+  background-color: white;opacity:0.3;
+}
+/*END PROJECT OVERLAY*/
+
+
+/*LN BE BUTTON OVERLAY*/
+.ln-button-overlay,
+.be-button-overlay {
+  height: 85px;
+  width: 85px;
+  opacity: 100;
+  transition: .5s;
+}
+
+.ln-button-overlay:hover {
+  background-color: white;opacity:0.3;
+}
+
+.be-button-overlay:hover {
+  background-color: white;opacity:0.3;
+}
+/*END LN BE BUTTON OVERLAY*/
+
+
 @media only screen and (max-width: 1000px) {
   .nav-push-left {
     width: 20px;
@@ -774,10 +893,7 @@ footer {
     height: 120px;
     width: 100px
   }
-
-  
-
-}
+} 
 
 @media only screen and (max-width: 600px) {
   .nav-push-left {
@@ -832,7 +948,4 @@ footer {
     margin: 100px 4px 20px 4px;
     padding: 12px 12px;
   }
-
-
-
 }

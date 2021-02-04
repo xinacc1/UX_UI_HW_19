@@ -737,6 +737,48 @@ footer {
     width: 1920px;
     height: 500px;
   }
+
+  /*PROJECT OVERLAY*/
+.first-project-overlay,
+.second-project-overlay,
+.third-project-overlay,
+.fourth-project-overlay,
+.fifth-project-overlay,
+.sixth-project-overlay {
+  height: 100%;
+  width: 100%;
+  opacity: 0;
+  transition: .5s;
+}
+
+.first-project-overlay:hover {
+  background-color: white;opacity:0.3;
+}
+
+.second-project-overlay:hover {
+  background-color: white;opacity:0.3;
+}
+
+.third-project-overlay:hover {
+  background-color: white;opacity:0.3;
+}
+
+.fourth-project-overlay:hover {
+  background-color: white;opacity:0.3;
+}
+
+.fifth-project-overlay:hover {
+  background-color: white;opacity:0.3;
+}
+
+.sixth-project-overlay:hover {
+  background-color: white;opacity:0.3;
+}
+/*END PROJECT OVERLAY*/
+
+
+
+
   
 
   @media only screen and (max-width: 1000px) {

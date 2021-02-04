@@ -406,4 +406,15 @@ HTML FOOTER INDEX
   height: 12px;
   margin: 40px 4px;
   padding: 12px 12px;
-}
+} 
+ 
+  
+  HTML NAV BAR LINKS
+  <body>
+    <nav class="ln nav-bar-text">
+            <div class="nav-push-left"></div>
+            <div class="button-nav middle home-button"><a href="index.html">HOME</a></div>
+            <div class="button-nav middle"><a href="work.html">WORK</a></div>
+            <div class="button-nav middle"><a href="about.html">ABOUT</a></div>
+            <div class="button-nav middle">CONTACT</div>
+    </nav>
