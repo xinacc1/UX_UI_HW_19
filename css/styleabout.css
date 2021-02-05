@@ -57,6 +57,14 @@ nav {
   margin: 8px;
 } 
 
+a {
+  text-decoration: none;
+}
+
+a:hover {
+  text-decoration:none;
+}
+
 h1 {
   font-weight: 400;
   font-size: 48px;

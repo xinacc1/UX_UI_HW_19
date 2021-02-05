@@ -54,6 +54,14 @@ nav {
   font-weight: 300;
 }
 
+a {
+  text-decoration: none;
+}
+
+a:hover {
+  text-decoration:none;
+}
+
 /*NAV HOVER*/
 
 /*END NAV HOVER*/
