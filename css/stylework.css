@@ -11,6 +11,7 @@ html,
 body {
     height: 100%;
     width: 100%;
+    scroll-behavior: smooth;
 }
  
 .ln {
@@ -45,6 +46,10 @@ nav {
     margin: 8px;
     padding: 0px 18px;
 } 
+
+.button-nav p {
+  font-size: 32px;
+}
  
 .home-button {
     font-weight: 600;
@@ -84,6 +89,13 @@ h4 {
     font-weight: 300;
     font-size: 24px;
 }
+ 
+h5 {
+  font-weight: 300;
+  font-size: 24px;
+}
+
+
  
 p {
     font-weight: 300;
