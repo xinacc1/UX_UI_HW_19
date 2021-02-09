@@ -418,3 +418,25 @@ HTML FOOTER INDEX
             <div class="button-nav middle"><a href="about.html">ABOUT</a></div>
             <div class="button-nav middle">CONTACT</div>
     </nav>
+
+
+
+    LAST FOOTER BAR
+    <footer class="ln">
+    <div class="footer-push-left"></div>
+    <div class="f-button-nav middle ln noln-top noln-bottom">Copyright 2021</div>
+    <div class="f-button-nav middle ln noln-top noln-bottom">xina.ccastillo@gmail.com</div>
+    <div class="f-button-nav middle ln noln-top noln-bottom">+(61) 411 145 663</div>
+    <div class="f-button-nav middle ln noln-top noln-bottom">123 Eagle St, Brisbane QLD Australia</div>
+
+    <div class="to-right">
+        <div class="button-nav middle circle ln">
+            <img src="images/facebook.svg" alt="facebook icon">
+        </div>
+        <div class="button-nav middle circle ln">
+            <img src="images/twitter.svg" alt="twitter icon">
+        </div>
+    </div>
+
+</footer>
+
